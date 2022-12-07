@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table using Form</title>
+</head>
+<body>
+    <marquee behavior="alternate" direction="left">
+        <img src="/wed image/zealous.jpg" alt="image" width="1300px" height="300px">
+    <img src="/wed image/zealous black.webp" alt="image" width="1000px" height="300px">
+    </marquee>
+    <form align="center">
+        <img src="/wed image/lap with group.jpg" alt="lap" width="400px" height="600px" align="left">
+        <img src="/wed image/code.jpg" alt="code" width="400px" height="600px" align="right">
+        <table align="center" border="7px" cellspacing="10px" cellpadding="10px">
+            <h1>Zealous Registration Form</h1>
+            <tbody>
+                <tr>
+                    <td>Enter Your Name</td>
+                    <td>
+                        <input type="text" placeholder="ex:Razak"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter Your MobileNumber</td>
+                    <td>
+                        <input type="number" placeholder="+91********** ">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter your Email</td>
+                    <td>
+                        <input type="email" placeholder="ex:Razak@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>
+                        <textarea placeholder="Enter your permanent address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Course</td>
+                    <td>
+                        <select>
+                            <option selected hidden>Select your Programming Language</option>
+                            <option>Java Full Stack</option>
+                            <option>Python Full Stack</option>
+                            <option>Web Development</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" value="Male" name="Gender">Male
+                        <input type="radio" value="Female" name="Gender">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Day Format</td>
+                    <td>
+                        <input type="checkbox" name="format" value="WeekDays">WeekDays
+                        <input type="checkbox" name="format" value="WeekEnds">WeekEnds
+                    </td>
+                </tr>
+                <tr>
+                    <td>Day Timing</td>
+                    <td>
+                        <p><i>Select your comfortable timing</i></p>
+                       <input type="time">
+                    </td>
+
+            </tbody>
+            
+        </table>
+        <input type="checkbox" value="I Agree that your terms and conditions">I Agree that your terms and conditions <a href="/condition.html">click here</a>
+        <br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Cancel">
+
+    </form>
+    
+</body>
+</html>
