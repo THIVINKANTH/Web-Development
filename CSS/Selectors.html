@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in cascading style sheet</title>
+    <style>
+        h1
+        {
+            color: seagreen;
+        }
+        #tablebody
+        {
+            border-style: dotted double groove solid;
+            border-color: blue yellow tomato aqua;
+        }
+        .unorder
+        {
+            text-transform: capitalize;
+            color: springgreen;
+        }
+        #single
+        {
+            text-align: right;
+            color: blue;
+        }
+        *
+        {
+            background-color: rgb(232, 154, 232);
+        }
+        body
+        {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Student Details form</h1>
+    <h2>Form1</h2>
+    <table id="tablebody">
+        <thead>
+            <th>Student name</th>
+            <th>Student Place</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Thivin</td>
+                <td>Mettur</td>
+            </tr>
+            <tr>
+                <td>Pradeep</td>
+                <td>Salem</td>
+            </tr>
+            <tr>
+                <td>Manoj</td>
+                <td>Namakal</td>
+            </tr>
+        </tbody>
+    </table>
+    <ul id="unorder">
+        Programming Language
+        <li>Java</li>
+        <li>Python</li>
+        <li>c++</li>
+        <li id="single">R Programming Language</li>
+    </ul>
+    <i>Thank you</i>
+</body>
+</html>

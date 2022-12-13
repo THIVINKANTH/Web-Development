@@ -4,18 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table using Form</title>
+    <title>Zealous Registration Form</title>
+    <style>
+        h1
+        {
+            text-shadow: 3px 3px 8px rgb(249, 5, 249);
+        }
+        #reg
+        {
+            
+            background-color: rgb(0, 123, 0); width: 100px; height: 30px;
+            border-radius: 20px;
+        }
+        #can
+        {
+            background-color: rgb(149, 0, 0); width: 100px; height: 30px;
+            border-radius: 20px;
+        }
+        #table
+        {
+             margin-left: 425px;
+            margin-right: 300px;
+            margin-top: auto;
+            margin-bottom: auto;
+            text-align: center;
+            padding: 10px;
+            border-spacing: 10px;
+            border: 7px;
+            border-color: red;
+            box-shadow: 4px 9px 12px rgb(204, 0, 226);
+            background-color: rgb(13, 0, 255);
+            background-image: linear-gradient(yellow,green);
+        
+            
+        }
+        #form
+        {   
+           text-align: center;
+           background-image: linear-gradient(rgb(239, 228, 228),orange); 
+        }
+        body
+        {
+            
+        }
+        
+    </style>
 </head>
 <body>
-    <marquee behavior="alternate" direction="left">
-        <img src="/wed image/zealous.jpg" alt="image" width="1300px" height="300px">
-    <img src="/wed image/zealous black.webp" alt="image" width="1000px" height="300px">
-    </marquee>
-    <form align="center">
-        <img src="/wed image/lap with group.jpg" alt="lap" width="400px" height="600px" align="left">
-        <img src="/wed image/code.jpg" alt="code" width="400px" height="600px" align="right">
-        <table align="center" border="7px" cellspacing="10px" cellpadding="10px">
-            <h1>Zealous Registration Form</h1>
+    <div>
+        <img src="/wed_image/zealous.jpg" alt="image" width="1300px" height="300px">
+        <hr>
+    </div>
+
+                <a href="https://www.google.com/maps/dir//Zealous+Academy+of+Career+Training,+196%2F8,+Gokulakrishna+street+A+V+K+nagar+L+I+C+Colony,+Cross,+road,+Salem,+Tamil+Nadu+636004/@11.6710364,78.1398813,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3babf04680edbe0f:0xcb56c889044c2542!2m2!1d78.14207!2d11.6710364?hl=en"><img src="/wed_image/location icon.jpg" width="20px" height="25px" alt="location" style="text-align: right;">location</a>
+                <a href="tel:095973 34782"><p style="font-size:medium; text-align: right;">&#128242Contact</p></a>
+    <form id="form">
+        <table style="align-items:center;" id="table">
+            <h1 style="color: rgba(41, 41, 235, 0.835);"><i>Zealous Registration Form</i></h1>
             <tbody>
                 <tr>
                     <td>Enter Your Name</td>
@@ -57,6 +102,7 @@
                     <td>
                         <input type="radio" value="Male" name="Gender">Male
                         <input type="radio" value="Female" name="Gender">Female
+                        <input type="radio" value="Other" name="Gender">Other
                     </td>
                 </tr>
                 <tr>
@@ -67,19 +113,26 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>Enter your Date Of Joining</td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
                     <td>Day Timing</td>
                     <td>
                         <p><i>Select your comfortable timing</i></p>
-                       <input type="time">
+                       <input type="time"> <b><i>To</i></b> <input type="time">
                     </td>
 
             </tbody>
             
         </table>
+        <br>
         <input type="checkbox" value="I Agree that your terms and conditions">I Agree that your terms and conditions <a href="/condition.html">click here</a>
         <br>
-        <input type="submit" value="Register">
-        <input type="reset" value="Cancel">
+        <input type="submit" value="Register" id="reg">
+        <input type="reset" value="Cancel" id="can">
 
     </form>
     
