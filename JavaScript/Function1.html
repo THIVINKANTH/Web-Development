@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create An Function</title>
+    <script>
+        function process()
+        {
+        //     let temp=document.getElementById('Basic');
+        // temp.style.color='red';
+        // temp.style.textTransform='uppercase';
+        var sample=document.getElementsByTagName('li')[2];
+        sample.style.color='red';
+        sample.style.borderStyle='double';
+        }
+    </script>
+</head>
+<body>
+    <h2>Basic Function Creations</h2>
+    <ol onclick="process()">Web Frameworks
+        <li>Spring</li>
+        <li>Hibernate</li>
+        <li>Vue</li>
+        <li id="Basic">bootstrap</li>
+        <li>Angular</li>
+        <li>React js</li>
+        <li>Node js</li>
+    </ol>
+</body>
+</html>
